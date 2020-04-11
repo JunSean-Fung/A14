@@ -2,10 +2,8 @@
 
 
 * {
-    margin: 0;
+    margin-left: 0.5em;
     padding: 0;
-}
-
-h1{
     font-family: "Roboto Condensed";
 }
+
