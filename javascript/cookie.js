@@ -33,3 +33,12 @@ function checkCookie() {
         }
     }
 }
+// For testing
+function displayCookies() {
+    var theCookies = document.cookie.split(';');
+    var name = '';
+    for (var i = 1 ; i <= theCookies.length; i++) {
+        name += i + ' ' + theCookies[i-1] + "\n";
+    }
+    alert("Cookies:" + name);
+}
